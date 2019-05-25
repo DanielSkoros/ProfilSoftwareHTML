@@ -1,0 +1,81 @@
+html {
+  overflow-x: hidden;
+}
+
+.menu-box {
+  position: fixed;
+  width: 10%;
+  height: 100vh;
+  background: grey;
+  padding: 15px;
+  left: 0;
+  top: 0;
+}
+
+.container {
+  position: relative;
+  left: calc(7.5% + 30px);
+  width: calc(95% - 30px);
+}
+
+.container .top-box {
+  width: 80%;
+  margin: auto;
+  padding: 15px;
+  background: red;
+}
+
+.container .box {
+  width: 27%;
+  margin: 30px auto;
+  padding: 15px;
+  background: green;
+}
+
+.container .one {
+  position: absolute;
+  left: calc(10% - 15px);
+  max-width: 10%;
+  background: yellow;
+  padding: 15px;
+}
+
+.container .one p {
+  font: 14px sans-serif;
+}
+
+.container .flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto;
+  width: calc(80% + 30px);
+  position: relative;
+  right: calc(-10% + 45px);
+}
+
+.container .flex-wrapper .two, .container .flex-wrapper .three {
+  margin: auto;
+  width: 30%;
+  padding: 15px;
+}
+
+.container .flex-wrapper .two {
+  background: blue;
+}
+
+.container .flex-wrapper .three {
+  background: green;
+}
+
+.container .flex-wrapper .four {
+  background: aqua;
+  margin: 95px auto;
+  width: 80%;
+  padding: 15px;
+}
+/*# sourceMappingURL=index.css.map */
